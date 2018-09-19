@@ -42,6 +42,12 @@ footer a {
     color: #062A5C;
 }
 
+form label {
+    padding-right: 10px;
+}
+
+
+
 .dropdown {
     float: right;
     overflow: hidden;
