@@ -20,7 +20,7 @@ nav a:hover, .dropdown:hover .dropbtn {
 }
 
 header {
-    background: #4E78B2 url("logo.png") no-repeat left;
+    background: #4E78B2 url("resources/logo.png") no-repeat left;
     height: 50px;
 }
 
@@ -32,7 +32,7 @@ h2 {
 }
 
 footer {
-    background: url("logo.png") #4E78B2 no-repeat right;
+    background: url("resources/logo.png") #4E78B2 no-repeat right;
     color: #062A5C;
     text-align: center;
     font-size: 75%;
