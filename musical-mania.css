@@ -20,7 +20,7 @@ nav a:hover, .dropdown:hover .dropbtn {
 }
 
 header {
-    background: #4E78B2 url("resources/logo.png") no-repeat left;
+    background: #4E78B2 url("logo.png") no-repeat left;
     height: 50px;
 }
 
@@ -32,7 +32,7 @@ h2 {
 }
 
 footer {
-    background: #4E78B2;
+    background: url("logo.png") #4E78B2 no-repeat right;
     color: #062A5C;
     text-align: center;
     font-size: 75%;
@@ -44,6 +44,10 @@ footer a {
 
 form label {
     padding-right: 10px;
+}
+
+body {
+    background: linear-gradient(to bottom, #FFFFFF, #062A5C) no-repeat;
 }
 
 
@@ -90,5 +94,99 @@ form label {
 }
 
 .review {
+    border: 5px solid #48BC81;
+    width: 33%;
+}
 
+.review h3 {
+
+}
+
+.column {
+    float: left;
+    width: 33%;
+    border: 1px solid #48BC81;
+
+}
+
+.column h3 {
+    text-align: center;
+    color: #062A5C;
+    text-shadow: 1px 1px 1px #2F5FA2;
+}
+
+.column p {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.column ul {
+    list-style: none;
+    display: inline;
+    text-align: center;
+
+}
+
+.column img {
+    display: block;
+    margin: auto auto;
+    box-shadow: 5px 5px 5px #48BC81;
+}
+
+
+.info-label {
+    font-weight: bold;
+}
+
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+#wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    background: #FFFFFF;
+    width: 80%;
+    min-width: 960px;
+    max-width: 2048px;
+    box-shadow: 3px 3px 3px #333333;
+}
+
+
+
+
+label {
+    float: left;
+    display: block;
+    text-align: right;
+    width: 150px;
+    padding-right: 10px;
+}
+
+input {
+    display: block;
+    margin-bottom: 20px;
+}
+
+input[type="submit"] {
+    margin-left: 160px;
+}
+
+textarea {
+    display: block;
+    margin-bottom: 20px;
+}
+
+select {
+    display: block;
+    margin-bottom: 20px;
+}
+
+main {
+    padding: 1px 20px 20px;
+    display: block;
 }
