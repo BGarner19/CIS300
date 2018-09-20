@@ -31,6 +31,11 @@ h2 {
 
 }
 
+h3 {
+    color: #0A3877;
+    text-shadow: 1px 1px 1px #2F5FA2;
+}
+
 footer {
     background: url("resources/logo.png") #4E78B2 no-repeat right;
     color: #062A5C;
@@ -93,19 +98,10 @@ body {
     display: block;
 }
 
-.review {
-    border: 5px solid #48BC81;
-    width: 33%;
-}
-
-.review h3 {
-
-}
-
 .column {
     float: left;
     width: 33%;
-    border: 1px solid #48BC81;
+    border: 1px solid #4E78B2;
 
 }
 
@@ -130,12 +126,13 @@ body {
 .column img {
     display: block;
     margin: auto auto;
-    box-shadow: 5px 5px 5px #48BC81;
+    box-shadow: 5px 5px 5px #4E78B2;
 }
 
 
 .info-label {
     font-weight: bold;
+    color: #0A3877;
 }
 
 
@@ -156,7 +153,9 @@ body {
     box-shadow: 3px 3px 3px #333333;
 }
 
-
+.bold {
+    font-weight: bold;
+}
 
 
 label {
@@ -190,3 +189,33 @@ main {
     padding: 1px 20px 20px;
     display: block;
 }
+
+table {
+    border: 1px solid #0A3877;
+    border-spacing: 0;
+}
+
+td {
+    padding: 5px;
+    border: 1px solid #0A3877;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: #B52B00;
+}
+
+tr:nth-child(odd) {
+    background-color: #4E78B2;
+}
+
+th {
+    padding: 5px;
+    border: 1px solid #0A3877;
+}
+
+.text-left {
+    text-align: left;
+}
+
+
