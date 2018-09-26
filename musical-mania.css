@@ -3,13 +3,13 @@ nav {
     float: right;
     width: auto;
     background-color: #4E78B2;
-    font-family: Arial;
+    font-family: Arial, serif;
 }
 
 nav a {
     float: right;
     font-size: 16px;
-    color: #062A5C;
+    color: #FFFFFF;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -66,7 +66,7 @@ body {
     font-size: 16px;
     border: none;
     outline: none;
-    color: #062A5C;
+    color: #FFFFFF;
     padding: 14px 16px;
     background-color: inherit;
     font-family: inherit;
@@ -77,13 +77,13 @@ body {
     display: none;
     position: absolute;
     background-color: #4E78B2;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,.2);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,.2);
     z-index: 1;
 }
 
 .dropdown-content a {
     float: none;
-    color: black;
+    color: #FFFFFF;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
